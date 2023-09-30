@@ -28,4 +28,22 @@ d) `Pull` the latest version of the directory from GitHub:
 
     $ git pull
 
-e) 
+Typically, you should see the following message appear, unless you forgot to `push` your last check-in (no big deal):
+
+    Already up to date.
+
+e) Create a new check-in file with today's date, using the command we saw in ***Lecture 0***:
+
+    $ touch HelloWorld_$(date +"%d%B%Y").txt
+
+f) `Add` all of the new files to GitHub's staging area:
+
+    $ git add .
+
+g) `Commit` the changes by adding a note after the option `-m`:
+
+    $ git commit -m 'include your note here'
+
+h) `Push` the changes to GitHub:
+
+    $ git push
