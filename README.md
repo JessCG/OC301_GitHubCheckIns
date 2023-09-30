@@ -11,7 +11,7 @@ After **Lecture 0**, you should have created a GitHub account and the instructor
 In **Lecture 1**, you will set up ssh keys on the server to be ready for the GitHub check-ins. Tailored instructions will be provided in HW1.
 
 ## 3. Clone your own private version of this repository (once; HW1)
-In **Lecture 1**, you will also clone your own version of this repository from GitHub to your home directory on the server. You can then try to attempt the first GitHub check-in.
+In **Lecture 1**, you will also `clone` your own version of this repository from GitHub to your home directory on the server. You can then try to attempt the first GitHub check-in.
 
 ## 4. GitHub check-in (every class day)
 At the start of every new lecture (or at home, the day of the lecture if you prefer), follow the following instructions:
