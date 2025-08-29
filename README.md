@@ -20,9 +20,9 @@ a) Log into the Jupyter Server
 
 b) Open Terminal
 
-c) Navigate to your `OC301_GitHubCheckIns` directory (replace `ONID` by your ONID):
+c) Navigate to your `OC301_GitHubCheckIns-username` directory (replace `username` by your GitHub username):
 
-    cd /home/ONID/OC301_GitHubCheckIns
+    cd ~/OC301_GitHubCheckIns-username
 
 d) `Pull` the latest version of the directory from GitHub:
 
@@ -37,6 +37,7 @@ e) Create a new check-in file with today's date, using the command we saw in ***
     touch HelloWorld_$(date +"%d%B%Y").txt
 
 f) Confirm that the new file is in your directory by using `ls`:
+
     ls
 
 g) `Add` all of the changed files to GitHub's staging area:
@@ -47,9 +48,10 @@ h) `Commit` the changes by adding a note after the option `-m`:
 
     git commit -m 'include your note here'
 
-i) `Push` the changes to GitHub:
+i) `Push` the changes to GitHub (you might have to enter your passphrase):
 
     git push
+
 
 j) Confirm that your repository is up to date with the version on GitHub:
 
